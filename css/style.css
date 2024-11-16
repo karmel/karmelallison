@@ -2706,6 +2706,18 @@ opacity: 0.8;
   margin-bottom: 2rem;
 }
 
+/* Add styles for mobile devices */
+@media (max-width: 768px) {
+  .text-page {
+    padding: 8rem 2rem 6rem;
+  }
+
+  .text-page p, ul, ol {
+    font-size: 1.5rem; /* Increase font size for mobile */
+    line-height: 2; /* Adjust line height for readability */
+  }
+}
+
 .blockquote p {
   padding-left: 3rem;
 }
