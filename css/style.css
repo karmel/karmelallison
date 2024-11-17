@@ -2016,6 +2016,8 @@ opacity: 0.8;
 
 .copy-bottom.white{
   color: #fff;
+  /* Don't display on photo pages */
+  display: none;
 }
 
 .lang-bottom .menu-lang{
@@ -2725,6 +2727,7 @@ opacity: 0.8;
 h3.subtitle {
   margin: 0;
 }
+
 
 /* 5.2 Min width 992px */
 
